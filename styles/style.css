@@ -23,6 +23,32 @@ hr{
     margin-bottom: 27px;
 }
 
+/*-----------------
+ header section
+ -------------------- */
+ .navbar{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .idea{
+     display: flex;
+     align-items: center;
+ }
+ .idea img{
+    height: 51px;
+    color: #FFFFFF;
+ }
+ .about-wrapper{
+     display: flex;
+     align-items: center;
+ }
+.about-link{
+    list-style: none;
+    
+}
+.about-link li{
+    display: inline-block;
+}
 /* top players style */
 .top-players{
     margin-bottom: 30px;
